@@ -1,0 +1,11 @@
+<h3>Personajes</h3>
+<hr>
+<ul>
+  <li *ngFor="let personaje of personajes">
+    {{ personaje.nombre }} - {{ personaje.poder | number }} -->
+    <!--
+      se coloca tipo de dato numerico " number " para que los
+      valores se muestren con su decimal
+    -->
+  </li>
+</ul>
